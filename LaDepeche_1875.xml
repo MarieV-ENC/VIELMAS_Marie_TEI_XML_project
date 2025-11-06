@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pressencoding SYSTEM "LaDepeche.dtd">
+
+<pressencoding>
+    <header>
+        <presstitle></presstitle>
+        <date publicationdate=""/>
+        <pressnumber number=""/>
+        <availability curation="online_archive" licence="free" source=""/>
+        <editor identity=""></editor>
+        <language lang=""/>
+    </header>
+    <text>
+        <page>
+            <forefront>
+                <title_forefront></title_forefront>
+                <year_forefront></year_forefront>
+                <date_forefront></date_forefront>
+                <address_forefront></address_forefront>
+                <price_forefront></price_forefront>
+                <price_abonnement_forefront></price_abonnement_forefront>
+                <price_insertion_forefront></price_insertion_forefront>
+            </forefront>
+            <column n="">
+                <article overlap="True" columnattachment="column1">
+                    <title_art></title_art>
+                    <p></p>
+                    <author name=""></author>
+                </article>
+            </column>
+        </page>
+    </text>
+</pressencoding>
+
+

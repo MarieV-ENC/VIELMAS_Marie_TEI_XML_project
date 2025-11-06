@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT pressencoding (header, text)>
+
+<!-- Start of header -->
+
+<!ELEMENT header (presstitle, date, pressnumber, availability, editor+, language)>
+
+<!ELEMENT presstitle (#PCDATA)>
+
+<!ELEMENT date EMPTY >
+<!ATTLIST date publicationdate CDATA #REQUIRED >
+
+<!ELEMENT pressnumber EMPTY >
+<!ATTLIST pressnumber number CDATA #REQUIRED >
+<!ATTLIST pressnumber year CDATA #IMPLIED >
+
+<!ELEMENT availability EMPTY >
+<!ATTLIST availability curation (online_archive | physical_archive) #REQUIRED>
+<!ATTLIST availability licence (free | closed)  #REQUIRED>
+<!ATTLIST availability source CDATA #REQUIRED >
+<!ATTLIST availability url CDATA #IMPLIED >
+
+<!ELEMENT editor (#PCDATA) > <!-- La personne qui édite le code -->
+<!ATTLIST editor identity CDATA #REQUIRED>
+<!ATTLIST editor institution CDATA #IMPLIED >
+<!ATTLIST editor githuburl CDATA #IMPLIED >
+
+<!ELEMENT language EMPTY >
+<!ATTLIST language lang CDATA #REQUIRED >
+
+<!-- Start of text -->
+
+<!ELEMENT text (page+) >
+
+<!ELEMENT page (forefront, column+) >
+
+<!ELEMENT forefront (title_forefront, year_forefront, date_forefront, address_forefront, price_forefront, price_abonnement_forefront, price_insertion_forefront) >
+
+<!ELEMENT title_forefront (#PCDATA) >
+<!ELEMENT year_forefront (#PCDATA) >
+<!ELEMENT date_forefront (#PCDATA) >
+<!ELEMENT address_forefront (#PCDATA) >
+<!ELEMENT price_forefront (#PCDATA) >
+<!ELEMENT price_abonnement_forefront (#PCDATA) >
+<!ELEMENT price_insertion_forefront (#PCDATA) >
+
+
+<!ELEMENT column (article+) >
+<!ATTLIST column n CDATA #REQUIRED >
+
+<!ELEMENT article (title_art, p+, author+) >
+<!ATTLIST article overlap (True | False) #REQUIRED >
+<!ATTLIST article columnattachment CDATA #IMPLIED >
+<!ELEMENT title_art (#PCDATA)>
+<!ELEMENT p (#PCDATA)>
+
+<!ELEMENT author (#PCDATA) >
+<!ATTLIST author name CDATA #REQUIRED>
+<!ATTLIST author firtsname CDATA #IMPLIED >
+<!ATTLIST author profession CDATA #IMPLIED >
+
+
+
