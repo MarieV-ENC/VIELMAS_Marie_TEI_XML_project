@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ELEMENT pressencoding (header, text)>
+<!ELEMENT pressencoding (header, text)> 
 
 <!-- Start of header -->
 
-<!ELEMENT header (presstitle, date, pressnumber, availability, editor+, language)>
+<!ELEMENT header (presstitle, date, pressnumber, availability, editor+, language)> <!-- header encode document's informations -->
 
 <!ELEMENT presstitle (#PCDATA)>
 
 <!ELEMENT date EMPTY >
-<!ATTLIST date publicationdate CDATA #REQUIRED >
+<!ATTLIST date publicationdate CDATA #REQUIRED > 
 
-<!ELEMENT pressnumber EMPTY >
+<!ELEMENT pressnumber EMPTY > <!-- pressnumber encode the year of publication and the number of the journal -->
 <!ATTLIST pressnumber number CDATA #REQUIRED >
 <!ATTLIST pressnumber year CDATA #IMPLIED >
 
-<!ELEMENT availability EMPTY >
+<!ELEMENT availability EMPTY > <!-- availibility encode the curation, the licence, the source and url for each sample -->
 <!ATTLIST availability curation (online_archive | physical_archive) #REQUIRED>
 <!ATTLIST availability licence (free | closed)  #REQUIRED>
 <!ATTLIST availability source CDATA #REQUIRED >
 <!ATTLIST availability url CDATA #IMPLIED >
 
-<!ELEMENT editor (#PCDATA) > <!-- La personne qui édite le code -->
+<!ELEMENT editor (#PCDATA) > <!-- editor encode informations about the project manager of this code -->
 <!ATTLIST editor identity CDATA #REQUIRED>
 <!ATTLIST editor institution CDATA #IMPLIED >
 <!ATTLIST editor githuburl CDATA #IMPLIED >
@@ -28,9 +28,9 @@
 <!ELEMENT language EMPTY >
 <!ATTLIST language lang CDATA #REQUIRED >
 
-<!-- Start of text -->
+<!-- Start of text --> 
 
-<!ELEMENT text (page+) >
+<!ELEMENT text (page+) > <!-- text encode the structure of the page -->
 
 <!ELEMENT page (forefront, column+) >
 
@@ -45,16 +45,17 @@
 <!ELEMENT price_insertion_forefront (#PCDATA) >
 
 
-<!ELEMENT column (article+) >
+<!ELEMENT column (article+) > <!-- each column can be composed with one or more articles -->
 <!ATTLIST column n CDATA #REQUIRED >
 
-<!ELEMENT article (title_art, p+, author+) >
+<!ELEMENT article (title_art, p+, author+) > <!-- for each article there is a title, paragraphs and an author. An article may cross several columns -->
+<!ATTLIST article n CDATA #REQUIRED >
 <!ATTLIST article overlap (True | False) #REQUIRED >
 <!ATTLIST article columnattachment CDATA #IMPLIED >
 <!ELEMENT title_art (#PCDATA)>
 <!ELEMENT p (#PCDATA)>
 
-<!ELEMENT author (#PCDATA) >
+<!ELEMENT author (#PCDATA) > <!-- for each author there is a name, a firstname and sometimes a profession -->
 <!ATTLIST author name CDATA #REQUIRED>
 <!ATTLIST author firtsname CDATA #IMPLIED >
 <!ATTLIST author profession CDATA #IMPLIED >

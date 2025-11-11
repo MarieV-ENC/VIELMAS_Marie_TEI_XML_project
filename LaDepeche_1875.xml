@@ -2,34 +2,80 @@
 <!DOCTYPE pressencoding SYSTEM "LaDepeche.dtd">
 
 <pressencoding>
+    
     <header>
-        <presstitle></presstitle>
-        <date publicationdate=""/>
-        <pressnumber number=""/>
-        <availability curation="online_archive" licence="free" source=""/>
-        <editor identity=""></editor>
+        <presstitle>La Dépchêche</presstitle>
+        <date publicationdate="04 avril 1875"/>
+        <pressnumber number="1479"/>
+        <availability curation="online_archive" licence="free" source="Bibliothèque numérique patrimoniale de Toulouse" url="https://rosalis.bibliotheque.toulouse.fr/ark:/12148/bpt6k4107240d"/>
+        <editor identity="Marie Vielmas" institution="Ecole nationale des chartes" githuburl="git@github.com:MarieV-ENC/VIELMAS_Marie_TEI_XML_project.git"></editor>
         <language lang=""/>
     </header>
+    
     <text>
         <page>
+            
             <forefront>
-                <title_forefront></title_forefront>
-                <year_forefront></year_forefront>
-                <date_forefront></date_forefront>
-                <address_forefront></address_forefront>
-                <price_forefront></price_forefront>
-                <price_abonnement_forefront></price_abonnement_forefront>
-                <price_insertion_forefront></price_insertion_forefront>
+                <title_forefront>La Dépchêche</title_forefront>
+                <year_forefront>Année 1875</year_forefront>
+                <date_forefront>Dimanche 4 avril</date_forefront>
+                <address_forefront>Administration et rédaction : rue Riquet, 33, Toulouse. les annonces (pour Paris) sont reçues chez MM. Audbourg et Cie place de la Bourse, 10, Paris</address_forefront>
+                <price_forefront>5 centimes</price_forefront>
+                <price_abonnement_forefront>PABONNEMENTS our la ville de Toulouse 18fr (un an) 9fr (6 mois) 4.50fr (4 mois). Départements limitrophes 22fr (un an) 11fr (6 mois) 5.50fr (4 mois) départements non limitrophes 28fr (un an) 14fr (6 mois) 7fr (4 mois)</price_abonnement_forefront>
+                <price_insertion_forefront>INSERTIONS Réclames et faits divers 1fr la ligne. Annonces 0.50fr la ligne</price_insertion_forefront>
             </forefront>
-            <column n="">
-                <article overlap="True" columnattachment="column1">
-                    <title_art></title_art>
+            
+            <column n="1">
+                <article n="1" overlap="False">
+                    <title_art>TOULOUSE, 3 avril</title_art>
                     <p></p>
-                    <author name=""></author>
+                    <author name="La Direction"></author>
+                </article>
+                
+                <article n="2" overlap="True">
+                    <title_art>Bulletin Politique</title_art>
+                    <p></p>
+                    <author name="Braud" firtsname="Louis"></author>
                 </article>
             </column>
+            
+            <column n="2">
+                <article n="1" overlap="True">
+                    <title_art>Bulletin Politique</title_art>
+                    <p></p>
+                    <author name="Braud" firtsname="Louis"></author>
+                </article>  
+            </column>
+
+            <column n="3">
+                <article n="1" overlap="False">
+                    <title_art>Bulletin Politique</title_art>
+                    <p></p>
+                    <author name="Braud" firtsname="Louis"></author>
+                </article>
+                
+                <article n="2" overlap="True">
+                    <title_art>Circulaire du ministre de la Justice</title_art>
+                    <p></p>
+                    <author name="Dufaure" profession="garde des sceaux, ministre de la Justice"></author>
+                </article>
+            </column>
+            
+            <column n="4">
+                <article n="1" overlap="False">
+                    <title_art>Circulaire du ministre de la Justice</title_art>
+                    <p></p>
+                    <author name="Dufaure" profession="garde des sceaux, ministre de la Justice"></author>
+                </article>
+                
+                <article n="2" overlap="True">
+                    <title_art>null</title_art>
+                    <p></p>
+                    <author name="J.S"></author>
+                </article>
+            </column>
+            
         </page>
     </text>
 </pressencoding>
-
 
