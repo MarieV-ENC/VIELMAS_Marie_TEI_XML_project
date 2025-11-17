@@ -1,7 +1,7 @@
 #Text transcriptions
 
 ## **Sample 1**
-###_La Dépêche : journal quotidien (04 avril 1875)_
+## _La Dépêche : journal quotidien (04 avril 1875)_
 Available source on [Gallica](https://rosalis.bibliotheque.toulouse.fr/ark:/12148/bpt6k4107240d)
 
 <p>6e Année — N° 1479
@@ -24,7 +24,7 @@ Les Annonces (pour Paris) sont reçues chez MM. AUDBOURG  et Cie, place de la Bo
 Réclames et Faits divers 1fr. la ligne
 Annonces 0fr50 la ligne</p>
 
-###TOULOUSE, 3 AVRIL
+## TOULOUSE, 3 AVRIL
 
 <p>Nous sommes à une époque où les feuilles poussent et où les morts ressuscitent. Victime d'une mesure militaire que nous croyons prudent de ne pas apprécier ici, encore interdite sur la voie publique, d'où elle est chassée depuis dix-neuf mois pleins comme hérétique- ou pestiférée de par le bon plaisir administratif, la _Dépêche_ remonte
 sur la brèche avec les mêmes convictions et poursuivant le même but.</p>
@@ -37,7 +37,7 @@ En résumé : tels nous avons été, tels nous sommes, tels nous serons.
 
 LA DIRECTION.</p>
 
-###Bulletin Politique
+## Bulletin Politique
 
 <p>Rappelons en quelques lignes rapides les événements qui se sont accomplis pendant notre silence forcé.</p>
 
@@ -70,7 +70,7 @@ la République est désormais la Loi, et quiconque l'attaque ou la trahit est un
 
 Louis BRAUD.</p>
 
-###CIRCULAIRE DU MINISTRE DE LA JUSTICE.
+## CIRCULAIRE DU MINISTRE DE LA JUSTICE.
 
 <p>Voie, d'après le _Journal officiel_, le texte de la circulaire que M. le garde des sceaux, ministre de la justice, vient d'adresser à
 MM. les procureurs généraux :
@@ -115,7 +115,7 @@ Garonne entre autres s'est montré à notre...</p>
 
 
 ## *Sample 2*
-### _La Dépêche : journal quotidien (19 août 1944)_
+## _La Dépêche : journal quotidien (19 août 1944)_
 Available source on [Gallica](https://rosalis.bibliotheque.toulouse.fr/ark:/12148/bpt6k4149943s/f1.image#)
 
 LA DÉPÊCHE
@@ -886,7 +886,7 @@ de longues durée. —r 0. F. I.
 
 
 ## **Sample 3**
-### _La Dépêche du Midi (05 novembre 2025)_
+## _La Dépêche du Midi (05 novembre 2025)_
 Available source on [La Dépêche web kiosque](https://kiosque.ladepeche.fr/la-depeche-du-midi/edition-toulouse/2025-11-06)
 
 
