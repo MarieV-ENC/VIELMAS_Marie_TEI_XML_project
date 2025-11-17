@@ -1,12 +1,26 @@
 # VIELMAS_Marie_TEI_XML_project
 XML-TEI modelling project (course by Katarzyna Kapitan - M2 TNAH ENC 2025
 
-## Encoding the printed french press
-<p>The Bibliothèque nationale de France (BnF) holds all the printed press among its collections. These collections have been the subject, for several years, of a digitization and online dissemination policy to resolve issues of conservation and communication. The BnF makes it available on its digital library named Gallica (https://gallica.bnf.fr/accueil/fr/html/accueil-fr) through a set of raster images associated with OCR (Optical Character Recognition).</p>
+## Repository introduction
+<p>This directory contains all the digital files produced as part of the educational project to encode several samples of heritage sources in XML-TEI.</p>
 
-<p>During a digitization and online dissemination operation of documentary resources, it is possible to distinguish the physical and logical structure of a document. For a press document the layout and graphic formatting of the content make its referencing more complex (title banner, forefront, division into columns, division into articles, image blocks, etc.), with multiple ways of reading and interpreting.</p>
+<p>The directory is organised into several tabs:
+- Assignment 1: folder containing three XML files associated with a DTD file, with a reflection note (submission date : 20 October 2025)
+- Assignment 2: folder containing three TEI XML files with a reflection note on TEI encoding and textual transcriptions of material sources (submission date: 17 November 2025)
+- Assignment 3: submission date 22 December 2025
+- Source material: folder containing three sample sources.
+</p>
 
-<p>Our project aims to propose an XML encoding based on the standards defined by the TEI (Text Encoding Initiative) for press document type. 
+##Project description
+<p>This project is based on a general reflection on the digitisation and online publication of printed documents from heritage collections in accordance with conservation and public communication objectives.</p>
 
-, using the front page (title page) of the newspaper "Le Matin : derniers télégrammes de la nuit" (No. 10276) published on March 16, 1912. A preview of the document is available in the source tab (also online via the URL: https://gallica.bnf.fr/ark:/12148/bpt6k570128q/f2.item.zoom).
+<p>We are particularly interested in the printed pess collections held at Bibliothèque nationale de France (BnF) under the legal deposit system.</p>
+
+<p>The printed press has been the subject of a major digitisation and online publication campaign over several years, resources available on BnF's digital library, Gallica (URL: https://gallica.bnf.fr/accueil/fr/html/accueil-fr), through a set of image files associated with OCR (Optical Character Recognition).</p>
+
+<p>Printed press is a type of document for which the physical and logical structure is particularly complex to determine due to a multitude of readings and interpretations ways.</p>
+
+<p>The aim of this project is therefore to analyse the material, logical and textual structure of press documents and propose an XML encoding for them based on the standards defined by the TEI (Text Encoding Initiative), while also offering a reflection on and comparison of different technical processes.</p>
+
+
 
