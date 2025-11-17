@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pressencoding SYSTEM "LaDepeche.dtd">
+<!DOCTYPE pressencoding SYSTEM "LaDepeche_assig1.dtd">
 
 <pressencoding>
     
@@ -21,7 +21,7 @@
                 <date_forefront>Dimanche 4 avril</date_forefront>
                 <address_forefront>Administration et rédaction : rue Riquet, 33, Toulouse. les annonces (pour Paris) sont reçues chez MM. Audbourg et Cie place de la Bourse, 10, Paris</address_forefront>
                 <price_forefront>5 centimes</price_forefront>
-                <price_abonnement_forefront>PABONNEMENTS our la ville de Toulouse 18fr (un an) 9fr (6 mois) 4.50fr (4 mois). Départements limitrophes 22fr (un an) 11fr (6 mois) 5.50fr (4 mois) départements non limitrophes 28fr (un an) 14fr (6 mois) 7fr (4 mois)</price_abonnement_forefront>
+                <price_abonnement_forefront>ABONNEMENTS our la ville de Toulouse 18fr (un an) 9fr (6 mois) 4.50fr (4 mois). Départements limitrophes 22fr (un an) 11fr (6 mois) 5.50fr (4 mois) départements non limitrophes 28fr (un an) 14fr (6 mois) 7fr (4 mois)</price_abonnement_forefront>
                 <price_insertion_forefront>INSERTIONS Réclames et faits divers 1fr la ligne. Annonces 0.50fr la ligne</price_insertion_forefront>
             </forefront>
             

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE pressencoding SYSTEM "LaDepeche.dtd">
+<!DOCTYPE pressencoding SYSTEM "LaDepeche_assig1.dtd">
 
 <pressencoding>
     
@@ -23,24 +23,24 @@
                 <price_insertion_forefront></price_insertion_forefront>
             </forefront>
             
-            <column n="">
-                <article overlap="True" columnattachment="column1">
+            <column n="1">
+                <article n="1" overlap="True" columnattachment="column1">
                     <title_art></title_art>
                     <p></p>
                     <author name=""></author>
                 </article>
             </column>
             
-            <column n="">
-                <article overlap="">
+            <column n="2">
+                <article n="2" overlap="False">
                     <title_art></title_art>
                     <p></p>
                     <author name=""></author>
                 </article>
             </column>
             
-            <column n="">
-                <article overlap="">
+            <column n="3">
+                <article n="3" overlap="False">
                     <title_art></title_art>
                     <p></p>
                     <author name=""></author>

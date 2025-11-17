@@ -8,7 +8,7 @@ XML-TEI modelling project (course by Katarzyna Kapitan - M2 TNAH ENC 2025
 - a title banner containing various publication information (title, date, year, issue number, place of publication, etc.)
 - the body of the text structured into several columns, each column divided into several articles with a title and an author.</p>
 
-<p>One of the difficulties in encoding this type of document is the plurality of locations for textual information fields. Articles in particular can continue across several columns.</p>
+<p>One of the difficulties in encoding this type of document is the plurality of locations for textual information fields. Articles in particular can continue across several columns. In this case we use in the DTD file the <\overlap> and <\columnattachment></p>
 
 <p>XML can be useful for structuring and organising textual data in the form of tags that differentiate several sections:
 - a header section, composed of several elements such as presstitle, date, pressnumber, etc., referring to the elements included in the title banner,
