@@ -16,7 +16,7 @@ XML-TEI modelling project (course by Katarzyna Kapitan - M2 TNAH ENC 2025
 
 - The TEI-all schema does not allow you to indicate whether an article continues over several columns (@overlap in the DTD). Here, we have chosen to use the attribute @ana (analysis) to indicate analyses and interpretations.
 
-- TEI allows several other elements and formatting to be encoded and distinguished, such as terms in bold, terms in italics, short quotations <\q>, or content elements such as references to people or places.
+- TEI allows several other elements and formatting to be encoded and distinguished, such as terms in bold, terms in italics, capital letters, short quotations <\q>, or content elements such as references to people or places.
 </p>
 
 <p>In the case of contemporary 21th-century press structured in the form of image blocks, we can use the <\zone> tag (for primary source encoding) to describe structural elements and block levels described with their characteristics and spatial location in the layout, or the <\figure> tag which struture graphic information such as illustrations or figures (which may be associated with text). This last solution is particularly interesting when the content of the caption or summary of the article is superimposed with an image. This attempt will be made as part of assignment 3.</p>
