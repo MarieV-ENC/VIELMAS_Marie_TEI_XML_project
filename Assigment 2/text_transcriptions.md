@@ -87,8 +87,7 @@ Versailles, 30 mars 1875.</p>
 
 <p>Si l'institution du jury suffit aux crimes de droit commun, a-t-elle également protégé la société contre les crimes et délits commis parla voie de la presse ou par tout autre mode de publicité ?</p>
 
-<p>Il est un autre ordre d'infractions moins graves en elles-mêmes que celles dont les jurés ont saisis, mais qui, en se répétant avec impunité, finiraient par ranimer toutes les inquiétudes que les lois constitutionnelles doivent dissiper. Les partis se sont fait une guerre vive et constante par divers moyens que nous ne pouvons laisser employer contre un gouvernement légalement établi. Vous voudrez bien me donner des renseignements précis sur les associations ou les comités que vous avez vus s'établir, sur ce qu'ils ont pu avoir de
-délictueux, sur les poursuites que vous avez exercées et les résultats qu'elles ont produits.</p>
+<p>Il est un autre ordre d'infractions moins graves en elles-mêmes que celles dont les jurés ont saisis, mais qui, en se répétant avec impunité, finiraient par ranimer toutes les inquiétudes que les lois constitutionnelles doivent dissiper. Les partis se sont fait une guerre vive et constante par divers moyens que nous ne pouvons laisser employer contre un gouvernement légalement établi. Vous voudrez bien me donner des renseignements précis sur les associations ou les comités que vous avez vus s'établir, sur ce qu'ils ont pu avoir de délictueux, sur les poursuites que vous avez exercées et les résultats qu'elles ont produits.</p>
 
 <p>Un déluge inaccoutumé de photographies, de dessins, d'emblèmes et de petits écrits, dans lesquels la vérité historique n'est pas moins offensée que le patriotisme et le bon
 sens, s'est depuis quelques années étendu sur notre pays ; vous aurez vu si ce vaste colportage était autorisé, et lorsqu'il ne l'était pas vous aurez pris contre lui des mesures que

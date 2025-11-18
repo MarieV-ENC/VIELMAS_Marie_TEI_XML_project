@@ -4,9 +4,9 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   
-  <teiHeader>
-     
+
+   <teiHeader>
+
       <fileDesc>
          <titleStmt>
             <title>XML-TEI press modelling project</title>
@@ -15,113 +15,414 @@
                <name>Marie Vielmas</name>
             </respStmt>
          </titleStmt>
-         
+
          <publicationStmt>
             <publisher>Bibliothèque nationale de France</publisher>
             <pubPlace>Paris</pubPlace>
             <date when="2018-11-11">2019-04-17</date>
-            <idno type="URI">https://rosalis.bibliotheque.toulouse.fr/ark:/12148/bpt6k4149943s/f1.image#</idno>
-            <availability status="free"><p>online archive</p></availability>
+            <idno type="URI"
+               >https://rosalis.bibliotheque.toulouse.fr/ark:/12148/bpt6k4149943s/f1.image#</idno>
+            <availability status="free">
+               <p>online archive</p>
+            </availability>
          </publicationStmt>
-         
-         <sourceDesc>
-               <bibl>
-                  <title>La Dépchêche : journal quotidien</title>
-                  <editor>[s.n]</editor>
-                  <date when="1875-04-04">1875-04-04</date>
-                  <lang>français</lang>
-                  <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k4107240d">Available on Gallica web site</ref>
-               </bibl>
-         </sourceDesc>
-         </fileDesc>
-     
-     <encodingDesc>
-        <projectDesc>
-           <p>Encoding for XML-TEI modelling project (course by Katarzyna Kapitan - M2 TNAH <orgName>Ecole nationale des chartes (ENC)</orgName> 2025), project available<ref target="https://github.com/MarieV-ENC/VIELMAS_Marie_TEI_XML_project.git"></ref></p>
-        </projectDesc>
-        <samplingDecl>
-           <p><!-- contient une description de l'échantillonnage réalisé sur le corpus--></p>
-        </samplingDecl>
-     </encodingDesc>
-     
-     <revisionDesc>
-        <change when="2025-11-11">Add TEI_schema</change>
-        <change when="2025-11-12">teiheader encoding</change>
-        <change when="2025-11-13">body encoding</change>
-        <change when="2025-11-17">last change before and online publication</change>
-     </revisionDesc>
-     
-  </teiHeader>
-   
-  <text>
-     
-         <front> <!--(texte préliminaire) contient tout ce qui est au début du document, avant le corps du texte -->
-            
-            <docTitle>
-               <titlePart>LA DEPÊCHE</titlePart>
-            </docTitle>
-            
-            <div type="Year">
-               <p>6e année - N°1479</p>
-               <metamark>G fol L2 10.005</metamark>
-               <p>Année 1875</p>
-            </div>
-               
-            <div type="price">
-               <p>Le Numéro 5 centimes</p>
-            </div>
-            
-            <div type="date">
-               <p>Dimanche 4 avril</p>
-            </div>
-            
-            <div type="abonnements">
-               <head>ABONNEMENTS</head>
-               <p></p>
-            </div>
-               
-            <div type="address">
-               <p>Administration et Rédaction : rue Riquet, 33 Toulouse</p>
-               <p>Les Annonces (pour Paris) sont reçues chez MM. Audbourg et Cie, place de la Bourse, 10, Paris</p>
-            </div>
-            
-            <div type="insertions">
-               <head>Insertions</head>
-               <p>Réclames et Faits divers 1 fr la ligne</p>
-               <p>Annonces 0.50 fr la ligne</p>
-            </div>
-         </front>
-     
-     <body>
-         
-         <div type="column" n="1">
-            
-            <div type="article" n="1">
-               <head>title</head>
-               <p></p>
-            </div>    
-            
-            <div type="article" n="2">
-               <head>title</head>
-               <p></p>
-            </div> 
-            
-         </div>
-         
-         <div type="column" n="2">
-            
-            <div type="article" n="1">
-               <head>title</head>
-               <p></p>
-            </div>    
-            
-            <div type="article" n="2">
-               <head>title</head>
-               <p></p>
-            </div> 
-            
-         </div>
-       </body>  
-  </text>
-</TEI>
 
+         <sourceDesc>
+            <bibl>
+               <title>La Dépchêche : journal quotidien</title>
+               <editor>[s.n]</editor>
+               <date when="1875-04-04">1875-04-04</date>
+               <lang>français</lang>
+               <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k4107240d">Available on Gallica
+                  web site</ref>
+            </bibl>
+
+            <listPerson>
+               <person xml:id="Audiffret-Pasquier_001">
+                  <persName>Gaston d'Audiffret-Pasquier</persName>
+                  <idno type="wikidata">Q2600693</idno>
+                  <note>French politician (1823-1905)</note>
+               </person>
+
+               <person xml:id="Laboulaye_001">
+                  <persName>Édouard René Lefèbvre de Laboulaye</persName>
+                  <idno type="wikidata">Q274429</idno>
+                  <note>French politician (1811-1883)</note>
+               </person>
+
+               <person xml:id="Dufaure_001">
+                  <persName>Jules Armand Dufaure</persName>
+                  <idno type="wikidata">Q182701</idno>
+                  <note>French politician and lawyer (1798-1881)</note>
+               </person>
+
+               <person xml:id="Buffet_001">
+                  <persName>Louis Joseph Buffet </persName>
+                  <idno type="wikidata">Q548687</idno>
+                  <note> French politician (1818-1898) </note>
+               </person>
+
+               <person xml:id="Baragnon_001">
+                  <persName>Numa Baragnon</persName>
+                  <idno type="wikidata">Q2004782</idno>
+                  <note> French politician (1797-1871) </note>
+               </person>
+
+               <person xml:id="Mac-Mahon_001">
+                  <persName>Patrice de MacMahon </persName>
+                  <idno type="wikidata">Q158838</idno>
+                  <note> third President of the French Republic (1808–1893) </note>
+               </person>
+
+            </listPerson>
+
+            <listPlace>
+               <place xml:id="Paris">
+                  <placeName>Paris</placeName>
+                  <location>
+                     <geo>48.5124 2.2107</geo>
+                     <!-- lat long -->
+                  </location>
+                  <idno type="wikidata">Q90</idno>
+               </place>
+
+               <place xml:id="Toulouse">
+                  <placeName>Toulouse</placeName>
+                  <location>
+                     <geo>43.3616 1.2638</geo>
+                     <!-- lat long -->
+                  </location>
+                  <idno type="wikidata">Q7880</idno>
+               </place>
+            </listPlace>
+
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoding for XML-TEI modelling project (course by Katarzyna Kapitan - M2 TNAH
+                  <orgName>Ecole nationale des chartes (ENC)</orgName> 2025), project available<ref
+                  target="https://github.com/MarieV-ENC/VIELMAS_Marie_TEI_XML_project.git"/></p>
+         </projectDesc>
+         <samplingDecl>
+            <p>Due to the length of the press articles, our work focuses only on the textual
+               information in the articles on the front page.</p>
+         </samplingDecl>
+      </encodingDesc>
+
+      <revisionDesc>
+         <change when="2025-11-11">Add TEI_schema</change>
+         <change when="2025-11-12">teiheader encoding</change>
+         <change when="2025-11-13">body encoding</change>
+         <change when="2025-11-17">last change before and online publication</change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text>
+
+      <front>
+         <!--(texte préliminaire) contient tout ce qui est au début du document, avant le corps du texte -->
+
+         <docTitle>
+            <titlePart>LA DEPÊCHE</titlePart>
+         </docTitle>
+
+         <div type="year">
+            <p>6e année - N°1479</p>
+            <metamark>G fol L2 10.005</metamark>
+            <p>Année 1875</p>
+         </div>
+
+         <div type="price">
+            <p>Le Numéro 5 centimes</p>
+         </div>
+
+         <div type="date">
+            <p>Dimanche 4 avril</p>
+         </div>
+
+         <div type="abonnements">
+            <head><hi rend="caps">ABONNEMENTS</hi></head>
+            <p>Pour la ville de <placeName ref="#Toulouse">Toulouse</placeName> 18fr. (un an) 9fr.
+               (6 mois) 4fr50 (8 mois) Départements limitrophes 22fr. (un an) 11fr. (6 mois) 5fr50
+               (8 mois) Départements non limitrophes 28fr. (un an) 14fr. (6 mois) 7fr. (8 mois)</p>
+         </div>
+
+         <div type="address">
+            <p>Administration et Rédaction : rue Riquet, 33 <placeName ref="#Toulouse"
+                  >Toulouse</placeName></p>
+            <p>Les Annonces (pour <placeName ref="#Paris">Paris</placeName>) sont reçues chez MM.
+               Audbourg et Cie, place de la Bourse, 10, <placeName ref="#Paris"/>Paris</p>
+         </div>
+
+         <div type="insertions">
+            <head><hi rend="caps">INSERTIONS</hi></head>
+            <p>Réclames et Faits divers 1fr. la ligne</p>
+            <p>Annonces 0.50fr. la ligne</p>
+         </div>
+      </front>
+
+      <body>
+
+         <div type="column" n="1">
+
+            <div type="article" n="1">
+               <head><hi rend="caps"><placeName ref="#Toulouse">TOULOUSE</placeName></hi>, 3
+                  avril</head>
+               <p>Nous sommes à une époque où les feuilles poussent et où les morts ressuscitent.
+                  Victime d'une mesure militaire que nous croyons prudent de ne pas apprécier ici,
+                  encore interdite sur la voie publique, d'où elle est chassée depuis dix-neuf mois
+                  pleins comme hérétique- ou pestiférée de par le bon plaisir administratif, la <hi
+                     rend="italic">Dépêche</hi> remonte sur la brèche avec les mêmes convictions et
+                  poursuivant le même but.</p>
+               <p>Nos principes qui peuvent se résumer en deux mots : l'amour de la France et la
+                  consolidation de la République, que nous ne séparons pas dans notre foi et nos
+                  aspirations, nous guideront comme par le passé. Nous avons l'absolue certitude
+                  d'être dans la voie droite au bout de laquelle nous rencontrerons la vérité et la
+                  justice ; aussi, rien ne nous en fera dévier, ni les clameurs et les provocations
+                  malsaines de nos adversaires, ni les impatiences, légitimes sans doute, mais
+                  imprudentes de quelques-uns. La modération qui s'allie à la fermeté des principes
+                  est un signe de force ; le parti républicain l'a compris ; et il commence à
+                  recueillir le fruit de sa sagesse; sans cesser d'être le grand parti national, il
+                  est devenu gouvernemental et constitutionnel.</p>
+               <p>Respectueux serviteurs de la loi, nous la défendrons avec énergie contre tous ses
+                  adversaires, d'où qu'ils viennent, qu'ils conspirent au grand jour ou dans
+                  l'ombre; dédaigneux des injures et des menaces, nous n'hésiterons pas à les
+                  démasquer, fidèles à la devise qui nous a toujours inspirés : Fais ce que dois,
+                  advienne que pourra.</p>
+               <p>En résumé : tels nous avons été, tels nous sommes, tels nous serons.</p>
+               <p><hi rend="caps">LA DIRECTION</hi>.</p>
+            </div>
+
+            <div type="article" n="2" ana="this article overlaps on the second column">
+               <head><hi rend="bold">Bulletin Politique</hi></head>
+               <p>Rappelons en quelques lignes rapides les événements qui se sont accomplis pendant
+                  notre silence forcé.</p>
+               <p>Dans notre dernier numéro paru le 2 février au soir, nous pouvions en enregistrant
+                  l'adoption de l'amendement Wallon, saluer l'aurore de la République définitive.
+                  Tous les organes de la presse française et étrangère, même anti-républicaine,
+                  jusqu'à l'<hi rend="italic">Union</hi>, l'<hi rend="italic">Unibvers</hi>, la <hi
+                     rend="italic">Gazette du Languedoc</hi>, reconnaissaient avec franchise que la
+                  proposition Wallon contenait expressément la reconnaissance de la République, et
+                  qu'il ne pouvait plus être question désormais du provisoire :<q>« L'amendement
+                     Wallon, disait la <hi rend="italic">Gazette</hi>, a une haute signification; il
+                     proclame la République, il fonde un gouvernement républicain
+                  définitif.»</q></p>
+               <p>Seul, le <hi rend="italic">Messager de Toulouse</hi>déclarait que ce vote <q>« ne
+                     lui inspirait aucune inquiétude »</q>; partant de là, son ultramontain
+                  rédacteur prenait l'arme du brave, l'insulte; et après avoir prétendu dans un
+                  langagede valet de chambre que <q>« la République était rentrée par l'escalier de
+                     service »</q>, abusait des grâces d'Etat qu'a tout organe</p>
+
+               <div type="column" n="2">
+                  <div type="article" n="2"
+                     ana="This is the continuation of the article begun in the previous column">
+                     <p>de l'ordre moral, et qualifiait impunément de <q>« grotesque »</q> le vote
+                        de l'Assemblée nationale.</p>
+                     <p>Nous nous sommes élevés contre un langage aussi scandaleux, et, le
+                        lendemain, nous étions suspendus tandis que le digne <hi rend="italic"
+                           >Message</hi> conservait la latitude d'insulter la République et de baver
+                        sur les républicains. — Ceci soit dit sans récriminations.</p>
+                     <p>Quoi qu'il en soit, n'en déplaise au <hi rend="italic">Messager</hi> et à
+                        ses pareils, <q>« l'escalier de service »</q> est devenu la grande entrée ;
+                        ouverts à tous les hommes sincères et de bonne volonté ; la République est
+                        désormais la Loi, et quiconque l'attaque ou la trahit est un ennemi de la
+                        légalité et un factieux.</p>
+                     <p>Cet événement capital prime tous les autres, et nous pourrions terminer ici
+                        cette revue en nous contentant de rappeler i'avènement du nouveau ministère,
+                        on sait après quelle gestation laborieuse, si, depuis, il n'était survenu
+                        deux faits qui démontrent la cohésion de la majorité constitutionnelle du 25
+                        février, et un acte ministériel prouvant que le gouvernement se décide enfin
+                        à marcher dans la voie nouvelle tracée par la Constitution.</p>
+                     <p>Nous voulons parler, d'abord, de l'élection à la présidence de l'Assemblée
+                        de M. le duc d'<persName ref="#Audiffret-Pasquier_001"
+                           >Auddifret-Pasquier</persName>, laquelle a eu pour corollaire l'élection
+                        d'un membre de la gauche à la vice-présidence. On connait le fier et
+                        indépendant langage du nouveau président, auquel a applaudi la France
+                        entière. Mais, quelque hautes que soient la personnalité et les fonctions de
+                        M. d'<persName ref="#Audiffret-Pasquier_001">Audiffret</persName>, ses
+                        déclarations ne pouvaient modifier sensiblement la situation ; et c'est le
+                        discours prononcé par M. <persName ref="#Laboulaye_001">Laboulaye</persName>
+                        en prenant possession de la présidence du centre gauche, qui a fait entendre
+                        la note juste.</p>
+                     <p>Ce discours est le véritable programme de la majorité du 25 février, les
+                        diverses fractions de la gauche et le groupe Wallon-Lavergne en demandent
+                        l'application. Jusqu'à ce jour cependant, le gouvernement n'avait pas
+                        répondu à cet appel, mais un premier acte ministériel vient de se produire
+                        qui engage le cabinet dans la voie constitutionnelle et républicaine. Nous
+                        voulons parler de la circulaire que M. <persName ref="#Dufaure_001"
+                           >Dufaure</persName> vient d'adresser aux procureurs généraux.</p>
+                     <p>Cet important document que nous donnons plus bas aura les applaudissements
+                        de tous les bons citoyens ; son langage est net et précis, il proclame que
+                        la République est désormais le régime <hi rend="italic">défini</hi>, <hi
+                           rend="italic">légal</hi>, <hi rend="italic">définitif</hi>, et il engage
+                        les fonctionnaires des parquets à respecter et à faire respecter les lois
+                        constitutionnelles. Il appelle surtout leur attention sur ces brochures <q>«
+                           où la vérité historique n'est pas moins offensée que le patriotisme et le
+                           bon sens »</q> sur cette propagande qui ne tient nul compte du décret de
+                        déchéance et des lois.</p>
+                     <p>Nous le répétons, cette circulaire est véritablement un acte, elle n'est pas
+                        seulement personnelle à M. <persName ref="#Dufaure_001">Dufaure</persName>,
+                        elle est expression du gouvernement, et M. <persName ref="#Buffet_001"
+                           >Buffet</persName> la connaissait avant son insertion au <hi
+                           rend="italic">Joural officiel</hi>.</p>
+                     <p>Ce langage républicain du garde des sceaux demande un complément ; nul doute
+                        que M. <persName ref="#Buffet_001">Buffet</persName> ne le fasse entendre à
+                        son tour aux agents administratifs. Cela lui sera d'autant plus facile que,
+                        dans sa déclaration du 12 mars, le vice-président du conseil a proclamé la
+                        nécessité de respecter les lois constitutionnelles ; il le fera d'autant
+                        plus volontiers qu'il poursuivra l'application des idées émises par lui dans
+                        sa circulaire électorale de 1848, lorsqu'il disait : <q>« Il faut travailler
+                           à fonder la République, avec la volonté bien arrêtée, énergique, de la
+                           faire</q></p>
+                  </div>
+               </div>
+
+               <div type="colum" n="3">
+                  <div type="article" n="2"
+                     ana="This is the continuation of the article begun in the previous columns">
+                     <p><q>réussir, de se dêvouer à celte grande œuvre corps et biens ! »</q></p>
+                     <p>Disons enfin qu'il se sentira soutenu par le pays, qui vient encore de
+                        manifester ses aspirations républicaines en nommant des conseillers généraux
+                        et municipaux républicalns, soit à Auch, dans la Charente, dans la Meuse et
+                        dans l'Aveyron.</p>
+                     <p>Le pays est d'accord avec la majorité constitutionnelle. <q>« Il faut que la
+                           France marche »</q>, avait dit M. <persName ref="#Baragnon_001"
+                           >Baragnon</persName>, La France marche, en effet, mais non suivant les
+                        vue de l'homme d'Etat de Nimes. Elle a marché, elle marchera encore, s'il
+                        plaît à Dieu ; mais les Baragnon attardés ou impénitents resteront sur le
+                        carreau.</p>
+                     <p>Louis <hi rend="caps">BRAUD</hi></p>
+                  </div>
+
+                  <div type="article" n="3">
+                     <head><hi rend="caps bold">CIRCULAIRE DU MINISTRE DE LA JUSTICE</hi></head>
+                     <p>Voie, d'après le _Journal officiel_, le texte de la circulaire que M. le
+                        garde des sceaux, ministre de la justice, vient d'adresser à MM. les
+                        procureurs généraux : </p>
+                     <p>Versailles, 30 mars 1875.</p>
+                     <p>Monsieur le procureur général, un mois s'est écoulé depuis que l'Assemblée
+                        nationale, dans l'exercice de son pouvoir constituant, a établi en France Ie
+                        gouvernement républicain, présidé pendant six ans par M. le maréchal de
+                           <persName ref="#Mac-Mahon_001">Mac-Mahon</persName>. Un état provisoire,
+                        dont les inconvénients s'aggravaient en se prolongeant, a fait place à un
+                        régime défini et légal.</p>
+                     <p>Ce mémorable changement n'a pu tout d'un coup forcer les convictions, calmer
+                        toutes les craintes, apaiser les partis. Après des temps si troublés, le
+                        sentiment de calme satisfaction que procure l'ordre définitivement établi ne
+                        pénètre que lentement dans les esprits ; mais du moins chaque citoyen a sa
+                        ligne de conduite, nettement tracée : libre au sein de sa conscience, il
+                        sait les actes extérieurs de soumission que la société attend de lui.</p>
+                     <p>Pour nous, monsieur le procureur général, chargés plus spécialement d'exiger
+                        de chacun l'observation des lois existantes et particulièrement de celles
+                        qui ont un caractère constitutionuel, rien ne saurait excuser la mollesse
+                        que nous apporterions dans l'accomplissement de notre tâche. De chers
+                        souvenirs, une pieuse reconnaissance, un inviolable attachement à
+                        d'anciennes convictions, toujours respectables, ne doivent pas altérer en
+                        nous le vif sentiment des devoirs que nous acceptons en devenant les
+                        serviteurs de notre pays. Nous sommes sur ce point, je n'en doute pas, en
+                        parfaite communauté d'opinion. J'ai besoin d'en avoir la certitude dans les
+                        rapports, tantôt officiels, tantôt confidentiels, que je dois avoir avec
+                        vous.</p>
+                     <p>Le retour de la sécurité par l'autorité absolue des lois exerce une
+                        influence nécessaire sur l'action de la justice répressive. Je désire que
+                        vos communications me permettent d'apprécier, pour votre ressort, les
+                        progrès que nous ferons vers un ordre social parfaitement régulier. Je tiens
+                        pour le moment à constater le point d'où nous partons. Etranger depuis
+                        bientôt deux ans à l'administration de la justice, je désire savoir les
+                        difficultés que vous avez rencontrées , celles que vous avez pu vaincre et
+                        celles qui subsistent encore. Vous me direz si la loi du jury, que
+                        l'Assemblée a votée sn 1872, a répondu aux espérances que nous en avions
+                        conçues ; si elle a procuré une répression exacte, certaine et proportionnée
+                        à la gravité des crimes. Vos réponses et l'étude que je fais des rapports de
+                        MM. les présidents d'assises doivent m'éclairer complétement sur cette
+                        partie importante de l'administration qui m'est confiée.</p>
+                     <p>Si l'institution du jury suffit aux crimes de droit commun, a-t-elle
+                        également protégé la société contre les crimes et délits commis parla voie
+                        de la presse ou par tout autre mode de publicité ?</p>
+                     <p>Il est un autre ordre d'infractions moins graves en elles-mêmes que celles
+                        dont les jurés ont saisis, mais qui, en se répétant avec impunité,
+                        finiraient par ranimer toutes les inquiétudes que les lois
+                        constitutionnelles doivent dissiper. Les partis se sont fait une guerre vive
+                        et constante par divers moyens que nous ne pouvons laisser employer contre
+                        un gouvernement légalement établi. Vous voudrez bien me donner des
+                        renseignements précis sur les associations ou les comités que vous</p>
+
+                     <div type="column" n="4">
+                        <div type="article" n="3"
+                           ana="This is the continuation of the article begun in the previous column">
+                           <p>avez vus s'établir, sur ce qu'ils ont pu avoir de délictueux, sur les
+                              poursuites que vous avez exercées et les résultats qu'elles ont
+                              produits.</p>
+                           <p>Un déluge inaccoutumé de photographies, de dessins, d'emblèmes et de
+                              petits écrits, dans lesquels la vérité historique n'est pas moins
+                              offensée que le patriotisme et le bon sens, s'est depuis quelques
+                              années étendu sur notre pays ; vous aurez vu si ce vaste colportage
+                              était autorisé, et lorsqu'il ne l'était pas vous aurez pris contre lui
+                              des mesures que vous m'indiquerez.</p>
+                           <p>Vous aurez gémi en livrant à la justice des agents très subalternes,
+                              qui n'avaient pas la conscience du mal qu'ils faisaient, tandis que
+                              ceux qui les mettaient en œuvre, qui leur fournissaient par milliers
+                              les instruments de leur délit, échappaient, à défaut de loi pénale, à
+                              toute responsabilité. Vous me direz si, dans votre opinion, une loi
+                              nouvelle doit être faite et quelle forme elle doit recevoir.</p>
+                           <p>Ai-je besoin de vous dire qu'en vous adressant ces demandes, je ne
+                              fais aucune acception de partis ? La violation des lois est coupable,
+                              de quelque part qu'elle vienne, et l'impartialité dont les tribunaux
+                              se font un rigoureux devoir dans le jugement dés intérêts civils est
+                              au moins aussi nécessaire chez le magistrat auquel est confiée
+                              l'action de la justice répressive.</p>
+                           <p>Je tiens à être éclairé le plus tôt possible sur les différentes
+                              questions qui font l'objet de cette lettre. Recevez, monsieur le
+                              procureur général, l'assurance de ma considération la plus
+                              distinguée.</p>
+                           <p><hi rend="italic">Le garde des sceaux, ministre de la justice</hi>,
+                                 <hi rend="caps"><persName ref="#Dufaure_001"/>DUFAURE</hi>.</p>
+                        </div>
+
+                        <div type="article" n="4" ana="this new article continue on the next page">
+                           <head>unknow</head>
+                           <p>Le 3 février dernier, le général commandant l'état de siège dans la
+                              Haute Garonne nous frappait d'une suspension de deux mois pour la
+                              publication d'une dépêche télégraphique, parue onze jours avant, et
+                              qu'il jugeait de nature à troubler la paix publique. L'événement n'a
+                              pas justifié les craintes du général.</p>
+                           <p>Il ne nous a pas été donné de porter cet arrêté à la connaissance de
+                              nos lecteurs, et nous offrons ici tous nos remerciements à ceux de nos
+                              confrères qui ont bien voulu, dans cette circonstance, nous servir
+                              d'interprète, en même temps que l'expression de notre reconnaissance
+                              pour toutes les marques de sympathie que nous avons reçues à cette
+                              occasion.</p>
+                           <p>Après deux mois de silence, c'est avec une confiance entière dans
+                              l'accomplissement prochain de l'oeuvie politique à laquelle nous nous
+                              sommes voués que nous reprenons notre tâche interrompue. Certes, les
+                              difficultés sont grandes encore devant nous, mais le but que nous
+                              poursuivons se rapproche chaque jour davantage, et si les libertés
+                              nécessaires ne sont pas encore inscrites dans nos lois, nous avons du
+                              moins l'assurance qu'elles ne tarderont pas à nous être rendues. C'est
+                              une question de quelques semaines, de quelques mois au plus,
+                              c'est-à-dire un instant dans la longue période de notre
+                              relèvement.</p>
+                           <p>Le vote des lois constitutionnelles nous a donné la République,
+                              c'est-à-dire un gouvernement national qui ne souffre pas d'équivoque
+                              et qui veut être respecté. C'est pour notre pays une situation
+                              nouvelle, éminemment favorable au développement de notre commerce,
+                              trop longtemps paralysé par les menaces de-s partis hostiles. Cette
+                              situation nouvelle s'impose surtout aux fonctionnaires, à tous sans
+                              exception du haut en bas de l'échelle gouvernementale et
+                              adminitrative. Certains ont montré par un premier acte qu'ils
+                              l'avaient comprise en rendant la voie publique à plusieurs journaux
+                              républicains. Cette mesure les honore ; nous regrettons seulement que
+                              ces exemples soient restés sans effet. Le préfet de la Haute- Garonne
+                              entre autres s'est montré à notre...</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
