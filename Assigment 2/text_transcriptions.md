@@ -24,7 +24,7 @@ Les Annonces (pour Paris) sont reçues chez MM. AUDBOURG  et Cie, place de la Bo
 Réclames et Faits divers 1fr. la ligne
 Annonces 0fr50 la ligne</p>
 
-## TOULOUSE, 3 AVRIL
+TOULOUSE, 3 AVRIL
 
 <p>Nous sommes à une époque où les feuilles poussent et où les morts ressuscitent. Victime d'une mesure militaire que nous croyons prudent de ne pas apprécier ici, encore interdite sur la voie publique, d'où elle est chassée depuis dix-neuf mois pleins comme hérétique- ou pestiférée de par le bon plaisir administratif, la _Dépêche_ remonte
 sur la brèche avec les mêmes convictions et poursuivant le même but.</p>
@@ -37,7 +37,7 @@ En résumé : tels nous avons été, tels nous sommes, tels nous serons.
 
 LA DIRECTION.</p>
 
-## Bulletin Politique
+Bulletin Politique
 
 <p>Rappelons en quelques lignes rapides les événements qui se sont accomplis pendant notre silence forcé.</p>
 
@@ -70,7 +70,7 @@ la République est désormais la Loi, et quiconque l'attaque ou la trahit est un
 
 Louis BRAUD.</p>
 
-## CIRCULAIRE DU MINISTRE DE LA JUSTICE.
+CIRCULAIRE DU MINISTRE DE LA JUSTICE.
 
 <p>Voie, d'après le _Journal officiel_, le texte de la circulaire que M. le garde des sceaux, ministre de la justice, vient d'adresser à
 MM. les procureurs généraux :
